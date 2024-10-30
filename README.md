@@ -1,3 +1,0 @@
-Tutorial in this page:
-
-https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm
