@@ -25,7 +25,7 @@ public class ProductServiceController {
         return new ResponseEntity<>(productService.getProduct(), HttpStatus.OK);
     }
 
-    @PutMapping(value = "/prducts/{id}")
+    @PutMapping(value = "/products/{id}")
     public ResponseEntity<Object> updateProduct(@PathVariable("id") String id, @RequestBody Product product) {
         productService.updateProduct(id, product);
         return new ResponseEntity<>("Product is updated successfully", HttpStatus.OK);
